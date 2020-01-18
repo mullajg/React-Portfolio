@@ -1,0 +1,29 @@
+header{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 300px;
+}
+
+header h1{
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 4rem;
+    color: rgb(33, 37, 41);
+
+}
+
+.btn{
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+    font-weight: 700;
+    background-color: #1d809f;
+    border-color: #1d809f;
+    color: #fff;
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    border-radius: .25rem;
+    margin-right: 5px;
+}
+
+.btn:hover{
+    background-color: #124d5f;
+}

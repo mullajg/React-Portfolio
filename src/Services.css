@@ -1,0 +1,57 @@
+.services h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(236, 184, 7);
+    margin: 0;
+    padding: 0;
+}
+
+.services h2{
+    margin: 0px;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 48px;
+}
+
+.services{
+    background-color: #1d809f;
+    text-align: center;
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+
+.services > .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .row span{
+    background-color: white;
+    width: 112px;
+    height: 112px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #1d809f;
+    font-size: 36px;
+    line-height: 112px;
+}
+
+.services .row h4{
+    margin-bottom: 8px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+    font-size:24px;
+}
+
+.services .row p{
+    font-size:16px;
+    color:white;
+}
+
+/*If the servies break try uncommenting
+.services .row span ion-icon{
+    contain: none;
+}
+*/
